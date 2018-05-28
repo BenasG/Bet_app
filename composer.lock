@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7ca23bfe3adecc3beda85d197db4a0b",
+    "content-hash": "095e4d61b936ccd1f18382735d8b5907",
     "packages": [
+        {
+            "name": "benasg/bet",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BenasG/bet.git",
+                "reference": "c436aa351f168e884607e4b6938d1be155fffd41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BenasG/bet/zipball/c436aa351f168e884607e4b6938d1be155fffd41",
+                "reference": "c436aa351f168e884607e4b6938d1be155fffd41",
+                "shasum": ""
+            },
+            "require": {
+                "vanilla/garden-schema": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.5.x-dev"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Benasg\\Bet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Benas",
+                    "email": "benasg91@gmail.com"
+                }
+            ],
+            "description": "Bet package",
+            "time": "2018-05-27T15:24:46+00:00"
+        },
         {
             "name": "doctrine/inflector",
             "version": "v1.2.0",
@@ -2297,6 +2333,42 @@
             "time": "2018-05-21T10:06:52+00:00"
         },
         {
+            "name": "vanilla/garden-schema",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vanilla/garden-schema.git",
+                "reference": "009802b184cd4c66a65257ba8b429f1a444b610a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vanilla/garden-schema/zipball/009802b184cd4c66a65257ba8b429f1a444b610a",
+                "reference": "009802b184cd4c66a65257ba8b429f1a444b610a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Garden\\Schema\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Todd Burry",
+                    "email": "todd@vanillaforums.com"
+                }
+            ],
+            "description": "A simple data validation and cleaning library based on JSON Schema.",
+            "time": "2018-05-25T14:30:29+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -3968,7 +4040,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "benasg/bet": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
