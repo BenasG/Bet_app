@@ -19,6 +19,7 @@ class BetSelections extends Migration
             $table->unsignedInteger('selection_id');
             $table->float('odds', 8, 3);
             $table->timestamps();
+            $table->unique(['bet_id', 'selection_id']);
             $table->engine = 'InnoDB';
             $table->charset = 'utf8';
             $table->collation = 'utf8_unicode_ci';

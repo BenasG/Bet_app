@@ -16,6 +16,7 @@ class Player extends Migration
         Schema::create('player', function (Blueprint $table) {
             $table->increments('id');
             $table->decimal('balance', 19, 4)->default(1000);
+            $table->boolean('in_transaction')->defaul(0);
             $table->timestamps();
             $table->engine = 'InnoDB';
             $table->charset = 'utf8';
