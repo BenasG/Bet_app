@@ -15,4 +15,5 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('bet/create', ['uses' => 'BetController@createOne']);
+$router->get('bet/create/basic', ['uses' => 'BetController@createBasic']);
+$router->get('bet/create/request', ['uses' => 'BetController@createRequest']);
