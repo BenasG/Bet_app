@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BenasG/bet.git",
-                "reference": "c436aa351f168e884607e4b6938d1be155fffd41"
+                "reference": "117fb36c670a8c07a523662be09af3053720276a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BenasG/bet/zipball/c436aa351f168e884607e4b6938d1be155fffd41",
-                "reference": "c436aa351f168e884607e4b6938d1be155fffd41",
+                "url": "https://api.github.com/repos/BenasG/bet/zipball/117fb36c670a8c07a523662be09af3053720276a",
+                "reference": "117fb36c670a8c07a523662be09af3053720276a",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "Bet package",
-            "time": "2018-05-27T15:24:46+00:00"
+            "time": "2018-05-28T22:58:28+00:00"
         },
         {
             "name": "doctrine/inflector",
